@@ -1,6 +1,6 @@
 # 1. MLOps: Built-In-Algorithm
 
-we will focus on building a pipeline using a model trained using an Amazon SageMaker built-in algorithm, XGBoost. We will utilize an existing Amazon SageMaker example notebook, [xgboost_customer_churn](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/introduction_to_applying_machine_learning/xgboost_customer_churn), in terms of the data and the model being built.   The dataset we use is publicly available and was mentioned in the book Discovering Knowledge in Data by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets.
+We will focus on building a pipeline using a model trained using an Amazon SageMaker built-in algorithm, XGBoost. We will utilize an existing Amazon SageMaker example notebook, [xgboost_customer_churn](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/introduction_to_applying_machine_learning/xgboost_customer_churn), in terms of the data and the model being built.   The dataset we use is publicly available and was mentioned in the book Discovering Knowledge in Data by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets.
 
 Take a few minutes to review the notebook to understand what we are going to build and deploy. 
 
