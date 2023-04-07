@@ -1,6 +1,6 @@
 # 1. MLOps: Built-In-Algorithm
 
-In this section of the workshop, we will focus on building a pipeline using a model trained using an Amazon SageMaker built-in algorithm, XGBoost.  For the purposes of this workshop, we will utilize an existing Amazon SageMaker example notebook, [xgboost_customer_churn](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/introduction_to_applying_machine_learning/xgboost_customer_churn), in terms of the data and the model being built.   The dataset we use is publicly available and was mentioned in the book Discovering Knowledge in Data by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets.
+we will focus on building a pipeline using a model trained using an Amazon SageMaker built-in algorithm, XGBoost. We will utilize an existing Amazon SageMaker example notebook, [xgboost_customer_churn](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/introduction_to_applying_machine_learning/xgboost_customer_churn), in terms of the data and the model being built.   The dataset we use is publicly available and was mentioned in the book Discovering Knowledge in Data by Daniel T. Larose. It is attributed by the author to the University of California Irvine Repository of Machine Learning Datasets.
 
 Take a few minutes to review the notebook to understand what we are going to build and deploy. 
 
@@ -17,7 +17,7 @@ This is a basic pipeline that can be used to retrain your model; however, additi
 
 
 
-## Workshop Contents
+## Contents
 
 For this portion of the workshop, we will be building the following pipeline:  
 
@@ -31,12 +31,12 @@ For this portion of the workshop, we will be building the following pipeline:
 2) Please use North Virginia, **us-east-1** for this workshop
 
 ----
-## Lab Overview
+## Execution Overview
 
 This lab will utilize a built-in SageMaker algorithm, [XGBoost](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html), to train a model and deploy it to various environments for validation using a pipeline created in [AWS CodePipeline](https://aws.amazon.com/codepipeline/).  The pipeline will be setup to trigger based on new training data and/or manual execution of the pipeline. 
 
 --------
-## Step 1: Workshop Preparation
+## Step 1:  Preparation
 
 First, we will execute a Cloud Formation template to do some initial setup of our environment including creating: 
 
@@ -260,7 +260,7 @@ In this step, you will execute activities within a SageMaker Notebook Instance t
 
 
 
-The remainder of the workshop will be conducted inside the Jupyter Notebook instance.  If you are not familiar with working inside notebook instance environments, the main items you will need to know for this workshop are below: 
+The code will be conducted inside the Jupyter Notebook instance.  If you are not familiar with working inside notebook instance environments, the main items you will need to know for this workshop are below: 
 
    * To execute the current code cell, you can click **Run** on the top menu or Shift + Enter
 
